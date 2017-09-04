@@ -24,4 +24,4 @@ list_of_dicts = [lists2dict(feature_names, sublist) for sublist in row_lists]
 df = pd.DataFrame(list_of_dicts)
 
 # Print the head of the DataFrame
-df.header()
+print(df.header())
